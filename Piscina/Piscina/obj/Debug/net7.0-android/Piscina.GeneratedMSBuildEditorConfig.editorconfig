@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net7.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.RootNamespace = Piscina
+build_property.ProjectDir = C:\Users\alvaro.silva\source\repos\Piscina\Piscina\
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/AboutPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.AboutPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AboutPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AboutPage.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/AllNotesPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.AllNotesPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AllNotesPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AllNotesPage.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/AvaliacaoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.AvaliacaoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AvaliacaoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AvaliacaoPage.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/AvaliadoPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.AvaliadoPage.xaml
+build_metadata.AdditionalFiles.TargetPath = AvaliadoPage.xaml
+build_metadata.AdditionalFiles.RelativePath = AvaliadoPage.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/NotaFinalPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.NotaFinalPage.xaml
+build_metadata.AdditionalFiles.TargetPath = NotaFinalPage.xaml
+build_metadata.AdditionalFiles.RelativePath = NotaFinalPage.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/NotePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.NotePage.xaml
+build_metadata.AdditionalFiles.TargetPath = NotePage.xaml
+build_metadata.AdditionalFiles.RelativePath = NotePage.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/SelecionarPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.SelecionarPage.xaml
+build_metadata.AdditionalFiles.TargetPath = SelecionarPage.xaml
+build_metadata.AdditionalFiles.RelativePath = SelecionarPage.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/SignIn.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.SignIn.xaml
+build_metadata.AdditionalFiles.TargetPath = SignIn.xaml
+build_metadata.AdditionalFiles.RelativePath = SignIn.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/VisualAlunos.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.VisualAlunos.xaml
+build_metadata.AdditionalFiles.TargetPath = VisualAlunos.xaml
+build_metadata.AdditionalFiles.RelativePath = VisualAlunos.xaml
+
+[C:/Users/alvaro.silva/source/repos/Piscina/Piscina/VisualTurma.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Piscina.VisualTurma.xaml
+build_metadata.AdditionalFiles.TargetPath = VisualTurma.xaml
+build_metadata.AdditionalFiles.RelativePath = VisualTurma.xaml

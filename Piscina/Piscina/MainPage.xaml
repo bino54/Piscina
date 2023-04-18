@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+             x:Class="Piscina.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25" 
+            Padding="30,0" 
+            VerticalOptions="Center">
+
+            <Image
+                Source="descarregar.jfif"
+                SemanticProperties.Description="Pagina de Login"
+                HeightRequest="150"
+                WidthRequest="150"
+                HorizontalOptions="Center" />
+
+
+
+
+
+
+
+            <VerticalStackLayout>
+                <Label Text="Bem-Vindo" FontSize="28" TextColor="Gray" HorizontalTextAlignment="Center" />
+                <Label Text="Fazer Login na sua conta" FontSize="20" TextColor="Gray" HorizontalTextAlignment="Center" />
+            </VerticalStackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="55" WidthRequest="55" CornerRadius="25">
+                    <Image Source="user1.png" HeightRequest="20" WidthRequest="20"/>
+                </Frame>
+                <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" HorizontalOptions="FillAndExpand">
+                    <Entry Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Usuário" Keyboard="Email" x:Name="UsernameEntry"/>
+                </Frame>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Frame ZIndex="1" HasShadow="True" BorderColor="White" HeightRequest="55" WidthRequest="55" CornerRadius="25">
+                    <Image Source="lock.jpg" HeightRequest="20" WidthRequest="20"/>
+                </Frame>
+                <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" HorizontalOptions="FillAndExpand">
+                    <Entry Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Senha" IsPassword="True" x:Name="PasswordEntry" />
+                </Frame>
+            </StackLayout>
+
+           
+            <telerik:RadButton x:Name="LoginBt" 
+                               Text="Login" 
+                               WidthRequest="120" 
+                               HorizontalOptions="Center"
+                               BackgroundColor="Blue"
+                               Clicked="OnLoginButtonClicked"
+                   />
+
+            <StackLayout Orientation="Horizontal" Spacing="10" HorizontalOptions="Center">
+                <Label Text="Não tem conta ?" TextColor="Gray" />
+                <Label Text="Criar conta" TextColor="Gray">
+                    <Label.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="OnLabelTapped" />
+                    </Label.GestureRecognizers>
+                </Label>
+            </StackLayout>
+
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

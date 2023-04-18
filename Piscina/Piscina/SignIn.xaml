@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:telerik="http://schemas.telerik.com/2022/xaml/maui"
+             x:Class="Piscina.SignIn"
+             Title="SignIn">
+    <VerticalStackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Nif:" FontSize="20" TextColor="Gray" />
+            <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" HorizontalOptions="FillAndExpand">
+                <Entry Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Usuário" Keyboard="Numeric" x:Name="NifEntry"/>
+            </Frame>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Password:" FontSize="20" TextColor="Gray" />
+            <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" HorizontalOptions="FillAndExpand">
+                <Entry Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Senha" IsPassword="True" x:Name="PasswordEntry" />
+            </Frame>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Nome do usuário:" FontSize="20" TextColor="Gray" />
+            <Frame HasShadow="True" Padding="0" BorderColor="White" HeightRequest="45" HorizontalOptions="FillAndExpand">
+                <Entry Margin="20,0,0,0" VerticalOptions="Center" Placeholder="Nome" x:Name="NomeEntry" />
+            </Frame>
+        </StackLayout>
+
+        <telerik:RadButton x:Name="AdicionarUtilizador" 
+                               Text="Adicionar Utilizador" 
+                               WidthRequest="150"
+                               HorizontalOptions="Center"
+                               BackgroundColor="Blue"
+                               Clicked="InserirUtilizador"
+                   />
+
+
+    </VerticalStackLayout>
+
+</ContentPage>
